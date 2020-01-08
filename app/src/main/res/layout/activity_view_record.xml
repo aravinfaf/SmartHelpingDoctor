@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:paddingLeft="5dp"
+        android:layout_margin="5dp"/>
+
+        <ImageView
+            android:id="@+id/editIV"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_toLeftOf="@+id/infoTV"
+            android:layout_marginRight="10dp"
+            android:visibility="visible"/>
+
+        <TextView
+            android:id="@+id/infoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:layout_alignParentRight="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:padding="7dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mobileTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingLeft="5dp"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/specialistTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/specialist"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingLeft="5dp"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/addressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingLeft="5dp"
+        android:layout_margin="3dp"/>
+
+
+    <TextView
+        android:id="@+id/latitudeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/latitude"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingLeft="5dp"
+        android:layout_margin="3dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/logitudeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/longitude"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:paddingLeft="5dp"
+        android:layout_margin="3dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

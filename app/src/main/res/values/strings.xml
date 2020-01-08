@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Smart Helping Doctor</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile number</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="specialist">Specialist</string>
+    <string name="address">Address</string>
+    <string name="add">Add doctor</string>
+    <string name="info">Info</string>
+
+    <string name="APIKEY">AIzaSyAmo0iIBXm_gIBYZjsb2-RGsKY9fV307Oc</string>
+<!--    <string name="APIKEY">AIzaSyCg2ioXD1I1W2SrJ3TDbNml1dbThlIYLyU</string>-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+</resources>

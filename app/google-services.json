@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "401887812620",
+    "firebase_url": "https://smart-helping-doctors.firebaseio.com",
+    "project_id": "smart-helping-doctors",
+    "storage_bucket": "smart-helping-doctors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401887812620:android:59e5cbd345fcc25a43e229",
+        "android_client_info": {
+          "package_name": "com.rahul.emergency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401887812620-8815cteooc3t7chofnuesm1kpn4rv89i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahul.emergency",
+            "certificate_hash": "43ed7b2ef95ad290236b57967f909d17f9dae5be"
+          }
+        },
+        {
+          "client_id": "401887812620-l3elrgbfos5iriccamv047tn5cm1aa53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB4TNmAYhz-o1OuPbOdEHJ1fuGCDuJAfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401887812620-l3elrgbfos5iriccamv047tn5cm1aa53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
